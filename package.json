@@ -1,0 +1,35 @@
+{
+  "name": "review-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server",
+  "nodemonConfig": {
+    "ignore": [
+      "public/*"
+    ]
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romandesigns/google-review-scrapper.git"
+  },
+  "author": "Roman F.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romandesigns/google-review-scrapper/issues"
+  },
+  "homepage": "https://github.com/romandesigns/google-review-scrapper#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^3.1.6",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "puppeteer": "^21.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
